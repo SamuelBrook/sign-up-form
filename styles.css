@@ -1,0 +1,148 @@
+@font-face {
+  font-family: NorseBold;
+  src: url(./Norse-Bold\(1\).otf);
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url(./Oswald-VariableFont_wght.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+}
+
+.mainContent {
+  width: 70vw;
+  height: 100vh;
+  font-family: Oswald, sans-serif;
+  font-size: 3vh;
+  line-height: 5vh;
+  background-color: rgb(250, 250, 250);
+}
+
+.mainContent-description {
+  margin-left: 10vw;
+  margin-top: 20vh;
+  margin-right: 12vw;
+}
+
+.mainContent-signOff {
+  margin-left: 10vw;
+  margin-right: 20vh;
+  margin-top: 5vh;
+}
+
+form {
+  margin-top: 5vh;
+  width: 100%;
+  background-color: white;
+  box-shadow: 10px 5px 5px rgb(212, 212, 212);
+}
+
+.inputContainer {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 1vh;
+  column-gap: 3vw;
+  font-size: large;
+}
+
+.inputContainer-description {
+  margin-bottom: 3vh;
+  width: 100%;
+  font-size: 3vh;
+}
+
+.inputContainer-input {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  font-size: 2vh;
+}
+
+.inputContainer-input label {
+  opacity: 80%;
+}
+
+.inputContainer-input input {
+  height: 30px;
+  padding: 6px;
+  border-radius: 5px;
+  border-width: thin;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-style: solid;
+}
+
+.leftContainer {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+  background-image: url(./fern.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.leftContainer-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 20vh;
+  width: 100%;
+  position: relative;
+  top: 20vh;
+  font-family: NorseBold, sans-serif;
+}
+
+.leftContainer-banner-image {
+  height: 15vh;
+}
+
+.leftContainer-banner-text {
+  font-size: 15vh;
+}
+
+.leftContainer-credit {
+  margin-bottom: 1%;
+  margin-top: auto;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+button {
+  margin-left: 10vw;
+}
+
+.accountCheck {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5vw;
+  margin-left: 10vw;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="leftContainer">
+        <div class="leftContainer-banner">
+          <img
+            class="leftContainer-banner-image"
+            src="./odin-lined.png"
+            alt="viking head"
+          />
+          <div class="leftContainer-banner-text">ODIN</div>
+        </div>
+        <div class="leftContainer-credit">
+          Photo by <span class="underline">Halie West</span> on
+          <span class="underline">Unsplash</span>
+        </div>
+      </div>
+      <div class="mainContent">
+        <p class="mainContent-description">
+          This is not a real online service. Sign up to this amazing online
+          service for whatever reason. You know you need it in your life right
+          now! Sign up <span class="italic">immediately</span> to get started!
+        </p>
+        <div class="mainContent-signOff">
+          You <span class="italic">know</span> you want to.
+        </div>
+        <form>
+          <div class="inputContainer">
+            <p class="inputContainer-description">Lets do this!</p>
+            <div class="inputContainer-input">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" />
+            </div>
+            <div class="inputContainer-input">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" />
+            </div>
+            <div class="inputContainer-input">
+              <label for="email"> Email Address</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="inputContainer-input">
+              <label for="phoneNumber">Phone Number</label>
+              <input type="tel" id="phoneNumber" />
+            </div>
+            <div class="inputContainer-input">
+              <label for="password">Password</label>
+              <input type="password" id="password" />
+            </div>
+            <div class="inputContainer-input">
+              <label for="confirmPassword">Confirm Password</label>
+              <input type="password" id="confirmPassword" />
+            </div>
+          </div>
+        </form>
+        <button type="submit">Create Account</button>
+        <div class="accountCheck">
+          <p>Already have an account?</p>
+          <a href="#">Log In</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
